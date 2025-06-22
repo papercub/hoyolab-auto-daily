@@ -18,6 +18,7 @@ let hasErrors = false
 let latestGames = []
 
 async function run(cookie, games) {
+  console.log(games);
   if (!games) {
     games = latestGames
   } else {
